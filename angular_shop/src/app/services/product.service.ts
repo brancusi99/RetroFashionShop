@@ -22,6 +22,7 @@ export class ProductService {
   }
 
   createProduct(product: any) {
+    console.log(product);
     this.httpClient.post(`${this.appConfig.getApiUrl()}/products/addProduct`, product).subscribe((response: any) => {
       console.log(response);
       console.log(response.message);

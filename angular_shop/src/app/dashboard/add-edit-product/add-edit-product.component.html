@@ -53,10 +53,16 @@
       <mat-form-field class="input-field">
         <mat-label>Product Type</mat-label>
         <mat-select [formControl]="productType">
-          <mat-option value="SMALL">Small</mat-option>
-          <mat-option value="MEDIUM">Medium</mat-option>
-          <mat-option value="LARGE">Large</mat-option>
-          <mat-option value="NONE">None</mat-option>
+          <mat-option value="BLUZE">Bluze</mat-option>
+          <mat-option value="TRICOURI">Tricouri</mat-option>
+          <mat-option value="CAMASI">Camasi</mat-option>
+          <mat-option value="BLUGI">Blugi</mat-option>
+          <mat-option value="PANTALONI">Pantaloni</mat-option>
+          <mat-option value="ROCHII">Rochii</mat-option>
+          <mat-option value="GECI">Geci</mat-option>
+          <mat-option value="FUSTE">Fuste</mat-option>
+          <mat-option value="INCALTAMINTE">Incaltaminte</mat-option>
+          <mat-option value="ACCESORII">Accesorii</mat-option>
         </mat-select>
         <mat-error *ngIf="productType.invalid">{{getErrorMessage(productType)}}</mat-error>
       </mat-form-field>
