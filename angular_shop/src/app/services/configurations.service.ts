@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class ConfigurationsService {
   private apiUrl: string = 'http://localhost:8081/api';
-  private appName: string = 'Shop Online Manager';
+  private appName: string = 'RetroLife';
   private appOwner: string = 'TechTastic';
   private appLogo: string =
     'https://img.freepik.com/premium-vector/online-shopping-logo-design-template-digital-shopping-logo-mouse-cursor-cart-concepts_502185-286.jpg';
